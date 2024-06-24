@@ -42,7 +42,7 @@ const MobileNav = () => {
               <section className="flex flex-col h-full gap-6 pt-16 text-white">
                 {sidebarLinks.map((link) => {
                   const isActive =
-                    pathname === link.route || pathname.startsWith(link.route);
+                    pathname === link.route;
                   return (
                     <SheetClose asChild key={link.route}>
                       <Link
