@@ -1,9 +1,29 @@
-import React from 'react'
+import React, { ReactNode } from "react";
 
-const MeetingModal = () => {
-  return (
-    <div>MeetingModal</div>
-  )
+interface MeetingModalProps {
+  image?: string;
+  buttonText?: string;
+  buttonIcon?: string;
+  title: string;
+  handleClick?: () => void;
+  isOpen: boolean;
+  onClose: () => void;
+  className?: string;
+  children?: ReactNode;
 }
 
-export default MeetingModal
+const MeetingModal = ({
+  isOpen,
+  onClose,
+  title,
+  handleClick,
+  className,
+  buttonText,
+  children,
+  image,
+  buttonIcon,
+}: MeetingModalProps) => {
+  return <div>MeetingModal</div>;
+};
+
+export default MeetingModal;
