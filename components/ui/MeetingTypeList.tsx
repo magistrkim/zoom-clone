@@ -3,6 +3,7 @@
 import { useState } from "react";
 import HomeCard from "./HomeCard";
 import { useRouter } from "next/navigation";
+import MeetingModal from "./MeetingModal";
 
 const MeetingTypeList = () => {
   const router = useRouter();
@@ -39,6 +40,7 @@ const MeetingTypeList = () => {
         handleClick={() => router.push("/recordings")}
         className="bg-yellow-1"
       />
+      <MeetingModal/>
     </section>
   );
 };
