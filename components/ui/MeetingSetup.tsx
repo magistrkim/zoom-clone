@@ -1,9 +1,18 @@
 "use client";
 
-import { useCall, VideoPreview } from "@stream-io/video-react-sdk";
+import {
+  DeviceSettings,
+  useCall,
+  VideoPreview,
+} from "@stream-io/video-react-sdk";
 import React, { useState, useEffect } from "react";
+import { Button } from "./button";
 
-const MeetingSetup = () => {
+const MeetingSetup = ({
+  setIsSetupComplete,
+}: {
+  setIsSetupComplete: (value: boolean) => void;
+}) => {
   const [isMicCamToogledOn, setisMicCamToogledOn] = useState(false);
   const call = useCall();
   if (!call) {
@@ -35,7 +44,17 @@ const MeetingSetup = () => {
           />
           Join with mic and camera off
         </label>
+        <DeviceSettings />
       </div>
+      <Button
+        className="rounded-md bg-green-500 px-4 py-2.5"
+        onClick={() => {
+          call.join();
+          setIsSetupComplete(true);
+        }}
+      >
+        Join meeting
+      </Button>
     </div>
   );
 };
