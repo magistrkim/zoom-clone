@@ -1,4 +1,5 @@
 import {
+  CallControls,
   CallParticipantsList,
   PaginatedGridLayout,
   SpeakerLayout,
@@ -35,6 +36,9 @@ const MeetingRoom = () => {
         >
           <CallParticipantsList onClose={() => setShowParticipants(false)} />
         </div>
+      </div>
+      <div className="flex w-full bottom-0 fixed items-center justify-center gap-5">
+        <CallControls/>
       </div>
     </section>
   );
