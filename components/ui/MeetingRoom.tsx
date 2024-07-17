@@ -22,6 +22,9 @@ const MeetingRoom = () => {
         <div className="flex size-full max-w-[1000px] items-center">
           <CallLayout />
         </div>
+        <div>
+
+        </div>
       </div>
     </section>
   );
