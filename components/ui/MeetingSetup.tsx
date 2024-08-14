@@ -13,11 +13,11 @@ const MeetingSetup = ({
 }: {
   setIsSetupComplete: (value: boolean) => void;
 }) => {
-  const [isMicCamToogledOn, setisMicCamToogledOn] = useState(false);
+  const [isMicCamToogledOn, setIsMicCamToogledOn] = useState(false);
   const call = useCall();
   if (!call) {
     throw new Error("usecall must be used within StreamCall component");
-  }
+  }     
   useEffect(() => {
     if (isMicCamToogledOn) {
       call?.camera.disable();
@@ -40,7 +40,7 @@ const MeetingSetup = ({
           <input
             type="checkbox"
             checked={isMicCamToogledOn}
-            onChange={(event) => setisMicCamToogledOn(event.target.checked)}
+            onChange={(event) => setIsMicCamToogledOn(event.target.checked)}
           />
           Join with mic and camera off
         </label>
