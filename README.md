@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <br />
+    <a href="https://www.linkedin.com/in/nataliya-kachor-522170271/" target="_blank">
+      <img src="https://github.com/adrianhajdin/project_react_native_jobs/assets/151519281/e7514725-0706-4080-bee4-b042554dabf7" alt="Project Banner">
+    </a>
+  <br />
 
-## Getting Started
+  <div>
+    <img src="https://img.shields.io/badge/-React_Native-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+    <img src="https://img.shields.io/badge/-Expo-black?style=for-the-badge&logoColor=white&logo=expo&color=000020" alt="expo" />
+  </div>
 
-First, run the development server:
+  <h3 align="center">React Native Pizza App </h3>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/nataliya-kachor-522170271/" target="_blank">
+        <img src="https://github.com/magistrkim/react-native-job-app/assets/115700340/949405ae-c30a-4079-ac8e-6496503d43f7" alt="Project Image" style="width: 300px;">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/nataliya-kachor-522170271/" target="_blank">
+        <img src="https://github.com/magistrkim/react-native-job-app/assets/115700340/48c1135e-8813-4104-9bf9-c2c004670122" alt="Project Image" style="width: 300px;">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/nataliya-kachor-522170271/" target="_blank">
+        <img src="https://github.com/magistrkim/react-native-job-app/assets/115700340/f20bc658-214c-4426-8aed-ab4e828f827a" alt="Project Image" style="width: 300px;">
+      </a>
+    </td>
+  </tr>
+</table>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+</div>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Node.js
+- React Native
+- Axios
+- Expo
+- Stylesheet
 
-## Learn More
+## <a name="features">🔋 Features</a>
 
-To learn more about Next.js, take a look at the following resources:
+👉 **Visually Appealing UI/UX Design**: Develop an aesthetically pleasing user interface using React Native components.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👉 **Third Party API Integration**: Fetch data from an external API and seamlessly integrate it into the app.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+👉 **Search & Pagination Functionality**: Implement search functionality and pagination for efficient data navigation.
 
-## Deploy on Vercel
+👉 **Custom API Data Fetching Hooks**: Create custom hooks for streamlined and reusable API data fetching.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+👉 **Dynamic Home Page**: Explore diverse jobs from popular and nearby locations across different categories.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+👉 **Browse with Ease on Explore Page**: Navigate through various jobs spanning different categories and types.
+
+👉 **Detailed Job Insights**: View comprehensive job details, including application links, salary info, responsibilities, and qualifications.
+
+👉 **Tailored Job Exploration**: Find jobs specific to a particular title 
+
+👉 **Robust Loading and Error Management**: Ensure effective handling of loading processes and error scenarios. 
