@@ -37,10 +37,9 @@
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - Node.js
-- React Native
-- Axios
-- Expo
-- Stylesheet
+- React 
+- TypeScript
+- TailwindCss
 
 ## <a name="features">🔋 Features</a>
 
