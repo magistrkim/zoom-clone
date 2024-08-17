@@ -36,7 +36,9 @@
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- Node.js
+- Next.js
+- Clerk
+- Stream IO
 - React 
 - TypeScript
 - TailwindCss
